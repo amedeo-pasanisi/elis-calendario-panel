@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "Calendario",
+  "id": "elis-calendario-panel",
+  "info": {
+    "keywords": ["panel"],
+    "description": "Calendario per selezionare un range di date",
+    "author": {
+      "name": "Elis"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=9.0.1",
+    "plugins": []
+  }
+}
