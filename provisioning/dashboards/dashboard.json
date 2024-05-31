@@ -24,6 +24,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
+  "iteration": 1717170496385,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -33,9 +34,9 @@
         "uid": "grafana"
       },
       "gridPos": {
-        "h": 4,
-        "w": 8,
-        "x": 7,
+        "h": 1,
+        "w": 9,
+        "x": 8,
         "y": 0
       },
       "id": 1,
@@ -53,6 +54,7 @@
           "refId": "A"
         }
       ],
+      "transparent": true,
       "type": "elis-calendario-panel"
     }
   ],
@@ -61,7 +63,46 @@
   "style": "light",
   "tags": [],
   "templating": {
-    "list": []
+    "list": [
+      {
+        "current": {
+          "selected": false,
+          "text": "\"2024-06-13\"",
+          "value": "\"2024-06-13\""
+        },
+        "hide": 0,
+        "name": "data_inizio",
+        "options": [
+          {
+            "selected": false,
+            "text": "",
+            "value": ""
+          }
+        ],
+        "query": "\"2024-06-13\"",
+        "skipUrlSync": false,
+        "type": "textbox"
+      },
+      {
+        "current": {
+          "selected": false,
+          "text": "\"2024-06-14\"",
+          "value": "\"2024-06-14\""
+        },
+        "hide": 0,
+        "name": "data_fine",
+        "options": [
+          {
+            "selected": false,
+            "text": "",
+            "value": ""
+          }
+        ],
+        "query": "\"2024-06-14\"",
+        "skipUrlSync": false,
+        "type": "textbox"
+      }
+    ]
   },
   "time": {
     "from": "now-6h",
@@ -71,6 +112,6 @@
   "timezone": "",
   "title": "Provisioned calendario dashboard",
   "uid": "a538aeff-5a8a-42a5-901c-938d896fdd6f",
-  "version": 1,
+  "version": 2,
   "weekStart": ""
 }
