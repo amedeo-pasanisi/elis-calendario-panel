@@ -22,7 +22,6 @@ export const CalendarioPanel: React.FC<CalendarioPanelProps> = ({ options, data,
       <RangePicker
         className={cx(
           css`
-            margin-top: 25px;
             width: ${width}px;
             height: ${height - 25}px;
             min-height: 40px;
