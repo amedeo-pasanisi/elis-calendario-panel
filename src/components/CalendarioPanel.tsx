@@ -23,7 +23,7 @@ export const CalendarioPanel: React.FC<CalendarioPanelProps> = ({ options, data,
         className={cx(
           css`
             width: ${width}px;
-            height: ${height - 25}px;
+            height: ${height}px;
             min-height: 40px;
             min-width: 170px;
           `
